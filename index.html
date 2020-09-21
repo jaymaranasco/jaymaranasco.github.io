@@ -1,56 +1,937 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Jaymar Anasco</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Jaymar Anasco</h1>
-						<p>Webmaster &nbsp;&bull;&nbsp; IT Technical &nbsp;&bull;&nbsp; Support</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.twitter.com/jaymaranasco" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www/fb.com/jaymaranasco" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								
-								<li><a href="https://www.github.com/jaymaranasco" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:jaymaranasco@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">Copyright &copy; <script language="javascript" type="text/javascript">
-var today = new Date()
-var year = today.getFullYear()
-document.write(year)
-</script>.</span>
-					</footer>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>David M. Grinstein Full Stack Javascript Engineer and Application Architect</title>
+	<meta name="description"
+		content="Javascript Specialist with +5 years experience, working remotely since beginning for enterprises overseas in The United States.">
+	<meta name="author" content="davidmirandagrinstein@gmail.com">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133652353-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-133652353-1');
+	</script>
+
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="row">
+
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<!-- <div class="logo">
+		         <a href="index.html">WEBSITE</a>
+		      </div> -->
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#repositories" title="">Repositories</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+
+		<div class="intro-overlay"></div>
+
+		<div class="intro-content">
+			<div class="row">
+
+				<div class="col-twelve">
+
+					<h5>Hello, World.</h5>
+					<h1>I'm David M. Grinstein</h1>
+
+					<!-- <p class="intro-position">
+						<span></span>
+					</p> -->
+
+					<ul class="intro-social">
+						<li><a target="_blank" href="https://www.linkedin.com/in/david-miranda-grinstein-b3aa3584/"><i
+									class="fa fa-linkedin"></i></a></li>
+						<li><a target="_blank" href="https://github.com/grinsteindavid"><i class="fa fa-github"></i></a>
+						</li>
+						<li><a target="_blank" href="https://medium.com/@davidmirandagrinstein"><i
+									class="fa fa-edit"></i></a>
+						</li>
+					</ul>
+
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+				</div>
 
 			</div>
+		</div> <!-- /intro-content -->
+
+	</section> <!-- /intro -->
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
+
+				<div class="intro-info">
+
+					<img src="https://graph.facebook.com/v2.8/10155360704442758/picture?type=normal"
+						alt="Profile Picture">
+
+					<!-- <p class="lead">I am passionate about my career and it is part of my life
+						every day. Every bump since I stared this field have made it easier. </p> -->
+				</div>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+
+			<div class="col-six tab-full">
+
+				<!-- <h3>Profile</h3>
+				<p>Semi-senior professional with experience in the IT sector for a while. Currently working remote as
+					Project Manager in charge of Atnigh Media and Sway Nightclub in the US and Smash Media application
+					architect located in Costa Rica.</p> -->
+
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>David Miranda Grinstein</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>Feb 04, 1993</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>Javascript Engineer / Application Architect</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>davidmirandagrinstein@gmail.com</span>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+				<!--<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>-->
+
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent95">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Application architect</strong>
+					</li>
+					<li>
+						<div class="progress percent95">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Typescript & ES6</strong>
+					</li>
+					<li>
+						<div class="progress percent95">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>React Web and Hooks</strong>
+					</li>
+					<li>
+						<div class="progress percent90">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Redux, Redux starter kit, Context</strong>
+					</li>
+					<li>
+						<div class="progress percent90">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Nodejs and Express</strong>
+					</li>
+					<li>
+						<div class="progress percent75">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Jest, Enzyme, React Testing Lib</strong>
+					</li>
+					<li>
+						<div class="progress percent75">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Cypress</strong>
+					</li>
+					<li>
+						<div class="progress percent60">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Amazon Web Services</strong>
+					</li>
+					<li>
+						<div class="progress percent60">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>React native Mobile Development</strong>
+					</li>
+					<li>
+						<div class="progress percent50">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Docker and Docker Compose</strong>
+					</li>
+					<li>
+						<div class="progress percent30">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>Blockchain / Etherium API</strong>
+					</li>
+					<li>
+						<div class="progress percent60">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>CSS3</strong>
+					</li>
+					<li>
+						<div class="progress percent30">
+							<!--<span>0%</span>-->
+						</div>
+						<strong>UX/UI Design</strong>
+					</li>
+				</ul> <!-- /skill-bars -->
+
+			</div>
+
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-		<script type="text/JavaScript">
-			document.write(new Date().getFullYear());
-		</script>
-	</body>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+				<a href="https://www.linkedin.com/in/david-miranda-grinstein-b3aa3584/" title="LinkedIn profile"
+					class="button button-primary" target="_blank">LinkedIn profile</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Resume</h5>
+				<!-- <h1>More of my credentials.</h1>
+
+				<p class="lead">Always self-taught and Every day something different.</p> -->
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experience</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>IT Project Manager</h3>
+							<p>Jan 2017 - Feb 2019</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Atnight Media | atnight.com</h4>
+							<p></p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>IT Project Manager</h3>
+							<p>Feb 2018 - Feb 2019 </p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Sway Nightclub | swaynightclub.com</h4>
+							<p></p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>React/Nodejs Architect and Q.A</h3>
+							<p>Feb 2019 - Prensent </p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Smash Media Inc | Marketing and A.I Traffic Service</h4>
+							<p></p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Education</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>English Program</h3>
+							<p>2010 - 2011</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4><a target="_blank"
+									href="https://www.fscj.edu/academics/english-language-programs/english-language-institute-(eli)">Florida
+									State College at Jacksonville - US</a></h4>
+							<p>The English Language Institute (ELI) provides intensive, high-quality, non-credit
+								instruction to non-native English
+								Language speakers. The ELI is an academic unit of Florida State College at Jacksonville
+								and is located at Downtown
+								Campus.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Systems Engineering</h3>
+							<p>2011 - 2015</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4><a target="_blank" href="http://www.unimar.edu.ve/unimarportal/index.php">Margarita
+									University at
+									Margarita Island</a></h4>
+							<p></p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Web Development</h3>
+							<p>2013 - present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>CodeCademy</h4>
+							<p>Courses: Make a website, Learn Angular 1.X, Learn Git, Learn the command Line, Learn
+								Ruby, Learn Ruby on Rails, Ruby on Rails: Authentication, Learn Sass, Learn ReactJS part
+								1 & 2, Introduction to jQuery, Learn Java, Learn CSS, Learn Python, Introduction to
+								Blockchain, Introduction to Javascript, Introduction to HTML, Asynchronous Javascript.
+							</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Web Development</h3>
+							<p>2016 - present</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>CodeSchool (Now Pluralsight)</h4>
+							<p>Courses: JavaScript Road Trip, jQuery the return flight, Powering up with react,
+								Real-time web with Node.js, Shaping up with Angular.js, ES2015 The shape of javascript
+								to come, Building blocks of Express.js, Try SQL, The sequel to sql, The magical marvels
+								of MongoDB, Ruby Bits, Rails for Zombies, Git Real, Breaking the ice with regular
+								expressions.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Web Development</h3>
+							<p>2016 - 2017</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>Platzi Scolarship</h4>
+							<p>Courses: PHP with Laravel, Advanced PHP.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Web Development</h3>
+							<p>2016 - 2017</p>
+						</div>
+
+						<div class="timeline-content">
+							<h4>SoloLearn</h4>
+							<p>Courses: jQuery tutorial, C# Tutorial, C++ tutorial, CSS Fundamentals, HTML Fundamentals,
+								Java tutorial, Javascript tutorial, PHP tutorial, SQL Fundamentals, Python 3 tutorial,
+								Ruby tutorial.</p>
+						</div>
+
+					</div> <!-- /timeline-block -->
+
+				</div> <!-- /timeline-wrap -->
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Works.</h1>
+
+				<p class="lead"></p>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row portfolio-content">
+
+			<div class="col-twelve">
+
+				<!-- portfolio-wrapper -->
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/portafolio_1.png" alt="">
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Atnight.com</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/portafolio_2.png" alt="">
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Swaynightclub.com</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> <!-- /folio-item -->
+
+					<!-- <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/portafolio_3.png" alt="">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Promoter app</h3>
+										<span class="folio-types">
+											Mobile App
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>  -->
+					<!-- /folio-item -->
+
+					<!-- <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/admin-clickster-1.png" alt="">
+							<a href="#" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Admin - Clickster</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>  -->
+					<!-- /folio-item -->
+
+					<!-- <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/admin-clickster-2.png" alt="">
+							<a href="#" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Admin - Clickster</h3>
+										<span class="folio-types">
+											Web Development
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> -->
+					<!-- /folio-item -->
+
+					<!-- modal popups - begin
+	            ============================================================= -->
+					<div id="modal-01" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="#" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Atnight.com</h4>
+
+
+							<div class="categories">Web Development</div>
+							<p>More about it soon..</p>
+						</div>
+
+						<div class="link-box">
+							<a href="#"></a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-01 -->
+
+					<div id="modal-02" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="#" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Swaynightclub.com</h4>
+
+
+							<div class="categories">Web Development</div>
+
+							<p>More about it soon..</p>
+						</div>
+
+						<div class="link-box">
+							<a href="#"></a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-02 -->
+
+					<div id="modal-03" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="#" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Atnight Media - Promoter app</h4>
+							<div class="categories">Mobile App</div>
+							<p>More about it soon..</p>
+						</div>
+
+						<div class="link-box">
+							<a href="#"></a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-03 -->
+
+					<div id="modal-04" class="popup-modal slider mfp-hide">
+
+						<div class="media">
+							<img src="#" alt="" />
+						</div>
+
+						<div class="description-box">
+							<h4>Admin - Clickster</h4>
+							<div class="categories">Web Development</div>
+							<p></p>
+						</div>
+
+						<div class="link-box">
+							<a href="#"></a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
+
+					</div> <!-- /modal-04 -->
+
+
+					<!-- modal popups - end
+	            ============================================================= -->
+
+				</div> <!-- /portfolio-wrapper -->
+
+			</div> <!-- /twelve -->
+
+		</div> <!-- /portfolio-content -->
+
+	</section> <!-- /portfolio -->
+
+
+
+
+
+	<!-- Repositories Section
+   ================================================== -->
+	<section id="repositories">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Repositories</h5>
+				<h1>Check Out Some Of My Repos</h1>
+
+				<!-- <p class="lead">Make your project and business more successful.</p> -->
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row services-content">
+
+			<div id="owl-slider" class="owl-carousel services-list">
+
+				<!-- <div class="service">
+
+					<span class="icon"><i class="fa fa-code"></i></span>
+
+					<div class="service-content">
+
+						<h3>Web Design & Development</h3>
+
+						<p class="desc">Expert web application development to clients. I do offer a variety of website
+							design and development services, from creating mobile web development solutions and
+							responsive website designs, to building custom e-commerce and intranet experiences using the
+							latest and proven web technologies.</p>
+
+					</div>
+
+				</div> /service -->
+
+
+
+			</div> <!-- /services-list -->
+
+		</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
+
+
+
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+
+				<p class="lead">Get In Touch & Get Started Today.</p>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row contact-form">
+
+			<div class="col-twelve">
+
+				<!-- form -->
+				<style>
+					.resp-container {
+						position: relative;
+						overflow: hidden;
+						padding-top: 100%;
+					}
+
+					.resp-iframe {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						border: 0;
+					}
+
+					@media only screen and (max-width: 768px) {
+						.resp-container {
+							position: relative;
+							overflow: hidden;
+							padding-top: 200%;
+						}
+					}
+				</style>
+				<div class="resp-container"> <iframe class="resp-iframe"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSdzE4AIJSKILnGx591QPK2UfnJnVv4pwTaMTXrwFUougufJfQ/viewform?embedded=true">Loading...</iframe>
+				</div>
+
+				<!-- contact-warning -->
+				<div id="message-warning">
+				</div>
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-six tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me At</h5>
+
+				<p>davidmirandagrinstein@gmail.com</p>
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+
+				<h5>Call or text Me At</h5>
+
+				<p>Chile Mobile: (+56) 964613223</p>
+
+			</div>
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<!--<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="https://www.linkedin.com/in/david-miranda-grinstein-b3aa3584/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+			   </ul> 
+	      		
+	      </div> -->
+
+			<div class="col-six tab-full">
+				<!-- <div class="copyright">
+		        	<span>© Copyright Kards 2016.</span> 
+		        	<span>Design by <a href="#">styleshout</a></span>	         	
+		         </div>	 -->
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		async function fetchRepositories() {
+			const response = await fetch('https://api.github.com/users/grinsteindavid/repos')
+			const repositories = await response.json()
+			const sliderContainer = document.querySelector('.row.services-content')
+
+			repositories.forEach(({ name, svn_url, description }) => {
+
+				const serviceContainer = document.createElement('div')
+				const iconContainer = document.createElement('span')
+				const icon = document.createElement('i')
+				const serviceContent = document.createElement('div')
+				const serviceContentTitleContainer = document.createElement('a')
+				const serviceContentTitleText = document.createElement('span')
+				const serviceContentDescription = document.createElement('p')
+
+				serviceContainer.classList.add('service')
+				iconContainer.classList.add('icon')
+				icon.classList.add('fa')
+				icon.classList.add('fa-github')
+				serviceContent.classList.add('service-content')
+				serviceContentDescription.classList.add('desc')
+				serviceContentTitleContainer.setAttribute('target', '_blank')
+				serviceContentTitleContainer.setAttribute('href', svn_url)
+
+				serviceContentTitleContainer.style.color = 'white'
+				serviceContentTitleText.style.textTransform = 'uppercase'
+				serviceContentTitleText.style.fontWeight = 'bolder'
+				serviceContentTitleText.style.marginLeft = '5px'
+
+				serviceContentTitleText.textContent = name
+				serviceContentDescription.textContent = description
+
+				iconContainer.appendChild(icon)
+				serviceContent.appendChild(serviceContentTitleContainer)
+				serviceContent.appendChild(serviceContentDescription)
+
+				serviceContentTitleContainer.appendChild(iconContainer)
+				serviceContentTitleContainer.appendChild(serviceContentTitleText)
+				serviceContainer.appendChild(serviceContent)
+
+				sliderContainer.appendChild(serviceContainer)
+			})
+		}
+
+		fetchRepositories()
+	</script>
+
+</body>
+
 </html>
